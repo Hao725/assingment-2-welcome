@@ -225,8 +225,6 @@ end MaxProfit
 
 
 
-
-
 object Main extends App:
   val datasetURL: URL = getClass.getResource("/Hotel_Dataset.csv")
   val dataset = new CsvReader(datasetURL).recordData
